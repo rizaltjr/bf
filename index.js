@@ -11,7 +11,7 @@ async function main() {
     var address = wallet.address;
     var balance = await provider.eth.getBalance(address);
 
-    if (balance !== '0')// eth in this account
+    if (balance !== '0.0')// eth in this account
     {
       // write mnemonic and address to cracked.txt
       const fs = require('fs')
