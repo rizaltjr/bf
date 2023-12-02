@@ -16,7 +16,7 @@ async function main() {
       // write mnemonic and address to cracked.txt
       const fs = require('fs')
       const content = mnemonic + '\n' + address + '\n' + balance + '\n'
-      console.log("Seed phrase and address written to cracked.txt");
+
       fs.appendFile('cracked.txt', content, err => {
         if (err) {
           console.error(err)
