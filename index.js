@@ -1,7 +1,7 @@
 const ethers = require("ethers");
 const Web3 = require("web3");
 const bip39 = require("bip39");
-const api = 'https://eth-mainnet.g.alchemy.com/v2/Liccy5Lk093uCp466bVrU6xEGHhX49_H'
+const api = 'https://eth-mainnet.g.alchemy.com/v2/ksf2-FUmwqNangvUFkgq4wsQh5IxPASi'
 const provider = new Web3(new Web3.providers.HttpProvider(api));
 
 async function main() {
